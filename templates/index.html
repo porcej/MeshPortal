@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Meshtastic MQTT Interface</title>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</head>
+<body>
+    <h1>Meshtastic MQTT Interface</h1>
+    <div id="messages">
+        <h2>Messages</h2>
+        <ul id="messageList"></ul>
+    </div>
+    <div id="sendMessage">
+        <h2>Send Message</h2>
+        <input type="text" id="messageInput" placeholder="Enter your message">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+</body>
+</html>
